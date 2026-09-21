@@ -1,0 +1,16 @@
+case_id,truth,alpha,structural_gain,quality,scenario,prediction,correct
+CONFLICT_KEEP_01,KEEP,1.0405,0.1,0.95,"Weak parameter and structural evidence, high quality",KEEP,True
+CONFLICT_KEEP_02,KEEP,1.0408,0.38,0.9,Structural evidence just below revision threshold,KEEP,True
+CONFLICT_RECAL_01,RECALIBRATE,0.95,0.1,0.95,"Strong parameter evidence, weak structural evidence",RECALIBRATE,True
+CONFLICT_RECAL_02,RECALIBRATE,1.0,0.38,0.9,"Parameter evidence strong, structural evidence just below threshold",RECALIBRATE,True
+CONFLICT_REVISE_01,REVISE,1.0405,0.8,0.95,"Strong structural evidence, adequate parameter fit",REVISE,True
+CONFLICT_REVISE_02,REVISE,0.95,0.8,0.95,Strong parameter and structural evidence,REVISE,True
+CONFLICT_ABSTAIN_01,ABSTAIN,0.95,0.8,0.6,"Strong parameter and structural evidence, poor quality",ABSTAIN,True
+CONFLICT_ABSTAIN_02,ABSTAIN,1.0405,0.8,0.75,"Strong structural evidence, insufficient quality",ABSTAIN,True
+CONFLICT_ABSTAIN_03,ABSTAIN,0.95,0.4,0.79,"Both evidence dimensions suggest change, but quality fails",ABSTAIN,True
+BOUNDARY_ALPHA_01,KEEP,1.0395349999999999,0.0,1.0,Alpha infinitesimally above frozen boundary,KEEP,True
+BOUNDARY_ALPHA_02,RECALIBRATE,1.039533,0.0,1.0,Alpha infinitesimally below frozen boundary,RECALIBRATE,True
+BOUNDARY_STRUCTURAL_01,KEEP,1.0405,0.38861100000000004,1.0,Structural evidence infinitesimally below boundary,KEEP,True
+BOUNDARY_STRUCTURAL_02,REVISE,1.0405,0.388613,1.0,Structural evidence infinitesimally above boundary,REVISE,True
+BOUNDARY_QUALITY_01,ABSTAIN,0.95,0.8,0.799999,Quality infinitesimally below boundary,ABSTAIN,True
+BOUNDARY_QUALITY_02,REVISE,1.0405,0.8,0.8000010000000001,Quality infinitesimally above boundary,REVISE,True

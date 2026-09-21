@@ -1,0 +1,9 @@
+order,section,purpose,key_message,primary_evidence
+1,Problem and Motivation,Define model discrepancy as a scientific decision problem.,"Prediction error alone does not determine whether a scientific model should be kept, recalibrated, structurally revised, or left undecided.",ETMR conceptual formulation
+2,ETMR Framework,Present the formal four-way decision framework.,"ETMR combines parameter adequacy, structural counterfactual evidence, evidence quality, and temporal reproducibility.",Step 98
+3,Controlled Benchmark,Test whether ETMR can distinguish known model-adequacy worlds.,"ETMR distinguishes KEEP, RECALIBRATE, REVISE, and ABSTAIN under controlled hidden-ground-truth cases.","Steps 82, 93, 94"
+4,Component Ablation,Determine whether each evidence dimension contributes uniquely.,"Removing quality, parameter, or structural evidence produces distinct and interpretable failure modes.",Step 88
+5,Baseline Comparison,Compare ETMR against a strong simple alternative.,ETMR reaches 98.12% versus 75.00% for the structural-plus-quality baseline on the independent 800-case benchmark.,Steps 93–95
+6,Evidence Conflict and Safety,Test behavior when evidence dimensions disagree.,Low-quality evidence prevents apparently strong structural discrepancies from automatically triggering revision.,Step 97
+7,Real-Data Application,Apply frozen ETMR to the irrigation dataset.,Structural support was 0/3 periods and parameter support 1/3; therefore ETMR conservatively selected KEEP.,Step 99
+8,Limitations,Define the boundary of the evidence.,Controlled benchmarks establish methodological behavior but do not establish universal real-world accuracy.,Step 100

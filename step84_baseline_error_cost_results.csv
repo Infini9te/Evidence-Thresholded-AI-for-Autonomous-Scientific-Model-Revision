@@ -1,0 +1,7 @@
+method,total_error_cost
+Residual/Structural Threshold,75
+Structural + Quality Gate,0
+Parameter-Only,45
+Parameter + Quality,45
+Improvement-Only,75
+Frozen ETMR,0

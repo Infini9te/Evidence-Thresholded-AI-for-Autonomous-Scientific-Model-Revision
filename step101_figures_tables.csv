@@ -1,0 +1,9 @@
+type,number,title,content
+Figure,Fig. 1,ETMR conceptual framework,Scientific model → residual evidence → quality assessment → parameter counterfactual → structural counterfactual → temporal reproducibility → four-way decision
+Figure,Fig. 2,ETMR decision logic,KEEP / RECALIBRATE / REVISE / ABSTAIN decision hierarchy
+Figure,Fig. 3,Independent benchmark performance,ETMR versus Structural+Quality baseline
+Figure,Fig. 4,Real-data temporal evidence,"2022, 2023, 2024 parameter and structural support"
+Table,Table 1,ETMR decision definitions,"KEEP, RECALIBRATE, REVISE, ABSTAIN"
+Table,Table 2,Component ablation,Step 88 results
+Table,Table 3,Baseline comparison,Step 95 results
+Table,Table 4,Real-data scientific decision,Step 99 results

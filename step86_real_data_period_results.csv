@@ -1,0 +1,4 @@
+period,parameter_mae_gain,parameter_rmse_gain,parameter_supported,structural_mae_gain,structural_rmse_gain,structural_reduction,structural_supported,decision_directional,final_temporal_status
+2022,3.626e-05,-3.94e-05,False,6.65e-06,1.228e-05,0.00063001,False,REVISE,NOT_SUPPORTED
+2023,3.2e-06,-1.705e-05,False,2.05e-06,-6.81e-06,-0.00059453,False,KEEP,NOT_SUPPORTED
+2024,6.36e-06,5.308e-05,True,1.279e-05,3.094e-05,-0.00312603,False,RECALIBRATE,SUPPORTED

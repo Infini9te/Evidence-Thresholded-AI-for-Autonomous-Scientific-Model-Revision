@@ -1,0 +1,2 @@
+n,ETMR_accuracy,Baseline_accuracy,accuracy_advantage,bootstrap_ci_lower,bootstrap_ci_upper,p_etmr_better,ETMR_errors,Baseline_errors,relative_error_reduction
+800,0.98125,0.75,0.23124999999999996,0.19875,0.26375,1.0,15,200,0.925

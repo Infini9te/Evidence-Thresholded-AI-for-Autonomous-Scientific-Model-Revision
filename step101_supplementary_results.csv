@@ -1,0 +1,5 @@
+result,reason
+Early threshold experiments,Useful for development history but not necessary for the final scientific narrative.
+Repeated synthetic threshold sweeps,Demonstrate internal development but would make the paper unnecessarily long.
+Intermediate failed benchmark constructions,Important for research debugging but not evidence for the final method.
+Step 65–72 exploratory failures,"Show why the final counterfactual formulation was needed, but belong in development records or supplementary discussion."

@@ -1,0 +1,2 @@
+n,accuracy,accuracy_ci_lower,accuracy_ci_upper,false_revision_rate,missed_revision_rate,unnecessary_change_rate,mean_seed_accuracy,std_seed_accuracy
+800,0.98125,0.97125,0.99,0.0,0.0,0.01875,0.98125,0.017921510973005483

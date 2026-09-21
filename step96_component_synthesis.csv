@@ -1,0 +1,7 @@
+method,benchmark,accuracy,false_revision_rate,missed_revision_rate,main_failure,interpretation,accuracy_gap_vs_ETMR
+Full ETMR,Step 93 / 94,0.9812,0.0,0.0,Boundary KEEP -> RECALIBRATE,"Uses quality, structural, and case-specific parameter evidence.",0.0
+ETMR without Quality Gate,Step 88,0.75,0.25,0.0,Low-quality structural cases falsely revised,Structural evidence alone is unsafe without evidence-quality control.,0.23119999999999996
+ETMR without Parameter Evidence,Step 88,0.75,0.0,0.0,RECALIBRATE -> KEEP,Cannot distinguish parameter inadequacy from an adequate model.,0.23119999999999996
+ETMR without Structural Evidence,Step 88,0.75,0.0,0.25,REVISE -> KEEP,Cannot identify structural/mechanistic inadequacy.,0.23119999999999996
+Quality Gate Only,Step 88,0.5,0.0,0.25,RECALIBRATE and REVISE -> KEEP,Quality control alone cannot determine the type of model response.,0.48119999999999996
+Structural + Quality Baseline,Step 95,0.75,0.0,0.0,RECALIBRATE -> KEEP,Strong structural-safety baseline but lacks parameter evidence.,0.23119999999999996

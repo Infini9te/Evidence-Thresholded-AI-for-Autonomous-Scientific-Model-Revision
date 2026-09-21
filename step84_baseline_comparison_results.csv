@@ -1,0 +1,7 @@
+method,accuracy,false_revision_rate,missed_revision_rate,false_recalibration_rate,unnecessary_change_rate,abstain_precision,abstain_recall
+Residual/Structural Threshold,0.5,0.25,0.0,0.0,0.0,,0.0
+Structural + Quality Gate,0.75,0.0,0.0,0.0,0.0,1.0,1.0
+Parameter-Only,0.5,0.0,0.25,0.0,0.0,,0.0
+Parameter + Quality,0.75,0.0,0.25,0.0,0.0,1.0,1.0
+Improvement-Only,0.5,0.25,0.0,0.0,0.0,,0.0
+Frozen ETMR,1.0,0.0,0.0,0.0,0.0,1.0,1.0

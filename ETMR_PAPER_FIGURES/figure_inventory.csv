@@ -1,0 +1,10 @@
+Figure,Scientific_question,Source_steps
+Fig. 1,What is ETMR?,98
+Fig. 2,Can parameter and structural inadequacy be separated?,71–77
+Fig. 3,When does ETMR abstain?,79–80
+Fig. 4,Can ETMR distinguish four decisions?,93–94
+Fig. 5,Does each evidence component matter?,88
+Fig. 6,What failure modes occur without components?,88
+Fig. 7,Does ETMR outperform the baseline?,95
+Fig. 8,Is performance stable across random seeds?,93–94
+Fig. 9,What does ETMR conclude on real irrigation data?,"63, 81, 87, 99"

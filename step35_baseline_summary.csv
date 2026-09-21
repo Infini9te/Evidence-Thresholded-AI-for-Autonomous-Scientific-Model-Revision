@@ -1,0 +1,5 @@
+Method,Correct,Total,Accuracy
+Error_Only,9,20,0.45
+Persistence_Only,10,20,0.5
+Context_Only,10,20,0.5
+ETMR,15,20,0.75

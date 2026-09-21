@@ -1,0 +1,2 @@
+structural_supported_periods,total_periods,structural_reproducibility,parameter_supported_periods,parameter_reproducibility,minimum_supported_periods,temporal_structural_decision,temporal_parameter_decision,final_real_data_decision
+0,3,0.0,1,0.3333333333333333,2,NOT_SUPPORTED,NOT_SUPPORTED,KEEP

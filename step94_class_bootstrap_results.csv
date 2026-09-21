@@ -1,0 +1,5 @@
+class,n,recall,ci_lower,ci_upper
+KEEP,200,0.925,0.885,0.96
+RECALIBRATE,200,1.0,1.0,1.0
+REVISE,200,1.0,1.0,1.0
+ABSTAIN,200,1.0,1.0,1.0

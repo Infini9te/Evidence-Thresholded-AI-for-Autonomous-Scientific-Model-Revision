@@ -1,0 +1,4 @@
+rank,contribution,why_important
+1,Evidence-thresholded four-way model revision decision,"Moves beyond prediction error toward deciding whether a scientific model should be kept, recalibrated, revised, or left undecided."
+2,Competing parameter-versus-structural counterfactual evidence,Separates parameter inadequacy from genuine structural inadequacy rather than treating residual magnitude as automatic evidence for revision.
+3,Evidence quality and temporal reproducibility as safeguards,Prevents apparently strong but unreliable or non-reproducible evidence from triggering unjustified model changes.

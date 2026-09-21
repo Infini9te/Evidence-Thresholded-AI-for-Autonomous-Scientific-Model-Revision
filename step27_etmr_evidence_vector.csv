@@ -1,0 +1,2 @@
+Prediction_Evidence,RMSE_Evidence,Structural_Evidence,Stability_Evidence,MAE_Improvement,MAE_CI_Lower,MAE_CI_Upper,RMSE_Improvement,RMSE_CI_Lower,RMSE_CI_Upper,Structure_Reduction,Structure_CI_Lower,Structure_CI_Upper,P_MAE_Better,P_RMSE_Better,P_Structure_Reduction,ETMR_Decision
+0,1,0,0,1.3106958742832228e-05,-9.152082408182264e-06,3.398364595896612e-05,3.300743229705909e-05,3.6214448542023744e-06,6.310991365828695e-05,0.0003164776289709,-0.004573843168121,0.0050232366533366,0.8805,0.9885,0.5375,KEEP

@@ -1,0 +1,11 @@
+result,value,interpretation
+Independent controlled benchmark,800 cases,Controlled validation
+ETMR accuracy,98.12%,Controlled benchmark only
+Strongest baseline accuracy,75.00%,Structural + Quality baseline
+Accuracy advantage,+23.12 percentage points,Controlled benchmark only
+Bootstrap 95% CI,"[19.88, 26.37] percentage points",Controlled benchmark only
+False structural revisions,0,Evaluated controlled benchmarks
+Missed structural revisions,0,Evaluated controlled benchmarks
+Real-data structural support,0/3 periods,No reproducible structural evidence
+Real-data parameter support,1/3 periods,Insufficient for reproducible recalibration
+Final real-data decision,KEEP,Conservative ETMR decision

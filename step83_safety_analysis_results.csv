@@ -1,0 +1,2 @@
+accuracy,false_revision_rate,missed_revision_rate,false_recalibration_rate,unnecessary_change_rate,abstain_precision,abstain_recall,total_error_cost
+1.0,0.0,0.0,0.0,0.0,1.0,1.0,0

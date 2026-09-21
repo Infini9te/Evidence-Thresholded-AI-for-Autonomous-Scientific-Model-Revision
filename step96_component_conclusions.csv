@@ -1,0 +1,5 @@
+component,evidence,scientific_role
+Quality Gate,Removing it increases false revisions to 25%.,Controls whether apparent discrepancies are trustworthy enough to justify model change.
+Parameter Evidence,Removing it reduces accuracy to 75% and causes RECALIBRATE cases to become KEEP.,Separates parameter inadequacy from an adequate model.
+Structural Evidence,Removing it causes all REVISE cases to be missed.,Detects evidence that parameter adjustment cannot adequately explain.
+Joint ETMR Decision,Combining all three dimensions yields 98.12% on the independent 800-case benchmark.,Produces a four-way scientific decision rather than a binary anomaly/revision flag.

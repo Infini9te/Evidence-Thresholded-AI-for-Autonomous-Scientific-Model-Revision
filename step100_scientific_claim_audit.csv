@@ -1,0 +1,11 @@
+claim_id,claim_type,claim,evidence,strength,allowed
+C1,CORE_METHOD,"ETMR frames model modification as an evidence-thresholded scientific decision among KEEP, RECALIBRATE, REVISE, and ABSTAIN.",Step 98 formal algorithm specification,SUPPORTED,YES
+C2,COMPONENT_ROLE,"Quality, parameter, and structural evidence provide distinct decision functions within ETMR.",Step 88 component ablation,SUPPORTED,YES
+C3,BASELINE_ADVANTAGE,ETMR outperforms the structural-plus-quality baseline on the 800-case independent controlled benchmark.,Step 95,SUPPORTED,YES
+C4,STATISTICAL_ROBUSTNESS,The 800-case ETMR accuracy advantage is statistically robust within the controlled benchmark.,Steps 93–95,SUPPORTED_WITH_SCOPE,YES
+C5,SAFETY,ETMR produced zero false structural revisions and zero missed structural revisions on the evaluated controlled benchmarks.,"Steps 83, 88, 94, 95",SUPPORTED_WITH_SCOPE,YES
+C6,CONFLICT_HANDLING,"ETMR correctly handled deliberately constructed conflicts between parameter evidence, structural evidence, and evidence quality.",Step 97,SUPPORTED,YES
+C7,REAL_DATA,"On the irrigation dataset, ETMR selected KEEP because neither structural nor parameter evidence was temporally reproducible.",Step 99,SUPPORTED,YES
+C8,GENERALIZATION,ETMR is universally accurate for real-world scientific model revision.,No real-world validation establishing universality,NOT_SUPPORTED,NO
+C9,REAL_WORLD_ACCURACY,ETMR achieves 98.12% accuracy on real irrigation data.,98.12% comes from the controlled 800-case benchmark,NOT_SUPPORTED,NO
+C10,CAUSALITY,ETMR proves that rainfall is causally responsible for model discrepancy.,Current experiments do not establish causal identification,NOT_SUPPORTED,NO

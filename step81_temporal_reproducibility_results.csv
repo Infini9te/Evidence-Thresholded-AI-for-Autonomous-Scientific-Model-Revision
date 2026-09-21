@@ -1,0 +1,4 @@
+year,quality,parameter_rmse_gain,parameter_p,structural_rmse_gain,structural_p,structural_reduction,structural_reduction_p,structural_supported,parameter_supported
+2022,1.0,-3.893e-05,0.0195,1.186e-05,0.736,0.00063001,0.611,True,False
+2023,1.0,-1.669e-05,0.219,-6.87e-06,0.337,-0.00059453,0.4115,False,False
+2024,1.0,5.216e-05,0.9805,3.028e-05,0.965,-0.00312603,0.136,False,True

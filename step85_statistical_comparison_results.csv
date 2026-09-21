@@ -1,0 +1,2 @@
+ETMR_accuracy,baseline_accuracy,observed_accuracy_advantage,bootstrap_mean_advantage,bootstrap_CI_low,bootstrap_CI_high,P_ETMR_better,ETMR_wins,baseline_wins,ties,paired_test_p_value,ETMR_error_cost,baseline_error_cost,ETMR_false_revision_rate,baseline_false_revision_rate,ETMR_missed_revision_rate,baseline_missed_revision_rate
+1.0,0.75,0.25,0.24974833333333335,0.15000000000000002,0.3666666666666667,1.0,15,0,45,6.103515625e-05,0,0,0.0,0.0,0.0,0.0

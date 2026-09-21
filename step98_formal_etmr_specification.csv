@@ -1,0 +1,16 @@
+component,formal_definition
+name,Evidence-Thresholded Model Revision (ETMR)
+objective,"Determine whether scientific model behavior should be kept unchanged, recalibrated, structurally revised, or left undecided because evidence is insufficient."
+input,"Observed system data, scientific baseline model, parameter counterfactual, structural counterfactual, measurement/provenance quality, and temporal evidence."
+output,"KEEP, RECALIBRATE, REVISE, or ABSTAIN"
+decision_hierarchy,1. Evidence quality gate; 2. structural counterfactual evidence; 3. case-specific parameter adequacy; 4. KEEP if neither change is sufficiently supported.
+quality_gate,"If evidence quality < 0.80, return ABSTAIN."
+structural_rule,"If evidence quality >= 0.80 and structural relative gain > 0.388612, return REVISE."
+parameter_rule,"If evidence quality >= 0.80, structural evidence is below revision threshold, and case-specific parameter estimate < 1.039534, return RECALIBRATE."
+keep_rule,"If evidence quality >= 0.80, structural evidence is below revision threshold, and case-specific parameter estimate >= 1.039534, return KEEP."
+temporal_rule,A change should be accepted as reproducibly supported only when the corresponding evidence is supported in at least 2 of 3 evaluated temporal periods.
+parameter_evidence_role,Tests whether parameter adjustment can explain the observed discrepancy without changing model structure.
+structural_evidence_role,Tests whether a structural/mechanistic counterfactual provides materially stronger explanatory adequacy.
+quality_evidence_role,Prevents strong apparent discrepancies from being interpreted as scientifically actionable when observations are unreliable.
+temporal_evidence_role,Prevents a model change from being justified by an isolated period-specific improvement.
+decision_philosophy,Model modification requires evidence sufficient to discriminate among competing explanations of model discrepancy.

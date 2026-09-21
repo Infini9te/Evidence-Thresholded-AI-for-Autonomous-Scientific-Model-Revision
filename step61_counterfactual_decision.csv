@@ -1,0 +1,10 @@
+Evidence,Value
+Parameter_RMSE_Robust,True
+Parameter_MAE_Robust,False
+Parameter_Support_Count,1
+Structural_RMSE_Robust,False
+Structural_MAE_Robust,False
+Structural_Removal_Robust,False
+Structural_Support_Count,0
+Alpha,1.0167708021916404
+Final_ETMR_Decision,KEEP
