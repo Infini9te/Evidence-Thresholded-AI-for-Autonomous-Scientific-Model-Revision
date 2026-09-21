@@ -1,6 +1,6 @@
-# Evidence-Thresholded Model Revision (ETMR)
 
-## A Decision Framework for Reliable Scientific AI
+
+# Evidence-Thresholded Model Intervention for Scientific Digital Twins
 
 Evidence-Thresholded Model Revision (ETMR) is a research framework for investigating whether an AI system can determine **when available evidence is sufficient to justify changing an underlying scientific model**.
 
